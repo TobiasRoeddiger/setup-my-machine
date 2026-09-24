@@ -48,6 +48,7 @@
 
 - [ ] Install nRF Connect for Desktop
 - [ ] Install nRF Connect for VS Code extensions
+- [ ] Install Serial Monitor VS Code extension
 - [ ] Install nRF Connect SDK 3.0.1
 - [ ] Install nRF Toolchain 3.0.1
 - [ ] Install SEGGER J-Link Software
