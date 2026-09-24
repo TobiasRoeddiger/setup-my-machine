@@ -21,6 +21,7 @@
 - [ ] Install KiCad
 - [ ] Install EasyEDA Pro
 - [ ] Install PreForm
+- [ ] Install Autodesk Fusion
 
 ## 3. Microsoft Office
 
