@@ -53,7 +53,7 @@
 - [ ] Install SEGGER J-Link Software
 - [ ] Check `JLinkExe` and other J-Link tools from the command line
 - [ ] Download the OpenEarable-2 repository or locate an existing repository
-- [ ] Clone the OpenEarable-2 repository into the `tobi` user's home directory
+- [ ] Clone the OpenEarable-2 repository into the user's home directory
 - [ ] Initialize dependencies/submodules
 - [ ] Compile board `openearable_v2/nrf5340/cpuapp` with a clean build
 - [ ] Compile the optional FOTA build
@@ -74,7 +74,7 @@
 - [ ] Run `flutter doctor -v`
 - [ ] Fix all errors reported by `flutter doctor`
 - [ ] Document a final error-free `flutter doctor -v` run
-- [ ] Clone the OpenEarable `app` repository (OpenWearables) into the `tobi` user's home directory
+- [ ] Clone the OpenEarable `app` repository (OpenWearables) into the user's home directory
 - [ ] Install app dependencies
 - [ ] Successfully compile the Android app
 - [ ] Successfully compile the iOS app
