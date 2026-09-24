@@ -1,127 +1,113 @@
-# Mac-Einrichtung – Checkliste
+# Mac Setup – Checklist
 
-Stand: 24. September 2026
+## 1. Baseline and Inventory
 
-## 1. Grundlage und Bestandsaufnahme
+- [ ] Check available disk space and macOS/CPU version
+- [ ] Inventory existing applications and command-line tools
+- [ ] Install Homebrew and run `brew doctor`
+- [ ] Install Xcode Command Line Tools
 
-- [ ] Freien Speicherplatz und macOS-/CPU-Version prüfen
-- [ ] Vorhandene Programme und Kommandozeilenwerkzeuge erfassen
-- [ ] Homebrew installieren und `brew doctor` prüfen
-- [ ] Xcode Command Line Tools installieren
+## 2. General Applications
 
-## 2. Allgemeine Programme
-
-- [ ] Visual Studio Code installieren
-- [ ] WhatsApp Desktop installieren
-- [ ] Signal Desktop installieren
-- [ ] Mozilla Thunderbird installieren
-- [ ] Spotify installieren
-- [ ] Zoom installieren
-- [ ] Audacity installieren
-- [ ] Arduino IDE installieren
-- [ ] Bambu Studio installieren
-- [ ] KiCad installieren
-- [ ] EasyEDA Pro installieren
-- [ ] PreForm installieren
+- [ ] Install Visual Studio Code
+- [ ] Install WhatsApp Desktop
+- [ ] Install Signal Desktop
+- [ ] Install Mozilla Thunderbird
+- [ ] Install Spotify
+- [ ] Install Zoom
+- [ ] Install Audacity
+- [ ] Install Arduino IDE
+- [ ] Install Bambu Studio
+- [ ] Install KiCad
+- [ ] Install EasyEDA Pro
+- [ ] Install PreForm
 
 ## 3. Microsoft Office
 
-- [ ] Microsoft Word installieren
-- [ ] Microsoft Excel installieren
-- [ ] Microsoft PowerPoint installieren
-- [ ] Microsoft Teams installieren
-- [ ] Office-Programme starten und Installationszustand prüfen
-- [ ] Falls nötig: Microsoft-Anmeldung/Lizenzaktivierung durch den Benutzer
+- [ ] Install Microsoft Word
+- [ ] Install Microsoft Excel
+- [ ] Install Microsoft PowerPoint
+- [ ] Install Microsoft Teams
+- [ ] Launch Office applications and verify installation status
+- [ ] If necessary: Microsoft sign-in/license activation by the user
 
-## 4. Terminal und Zsh
+## 4. Terminal and Zsh
 
-- [x] Zsh vorhanden (`/bin/zsh`)
-- [x] Zsh ist die Login-Shell
-- [ ] Oh My Zsh bzw. passende Prompt-Basis installieren
-- [ ] Powerline-kompatible Nerd Font installieren
-- [ ] Solarized-Dark-Farbschema für Terminal konfigurieren
-- [ ] Powerline-Prompt mit breiten Pfeilsegmenten konfigurieren
-- [ ] Emojis im Prompt deaktivieren
-- [ ] Git-, Ordner- und Statussegmente prüfen
-- [ ] Darstellung in einem neuen Terminalfenster prüfen
+- [ ] Zsh available (`/bin/zsh`)
+- [ ] Zsh is the login shell
+- [ ] Install Oh My Zsh or a suitable prompt framework
+- [ ] Install a Powerline-compatible Nerd Font
+- [ ] Configure the Solarized Dark color scheme for the Terminal
+- [ ] Configure a Powerline prompt with wide arrow segments
+- [ ] Disable emojis in the prompt
+- [ ] Check Git, folder, and status segments
+- [ ] Check the appearance in a new Terminal window
 
-## 5. Nordic, J-Link und OpenEarable 2
+## 5. Nordic, J-Link, and OpenEarable 2
 
-- [ ] nRF Connect for Desktop installieren
-- [ ] nRF Connect for VS Code-Erweiterungen installieren
-- [ ] nRF Connect SDK 3.0.1 installieren
-- [ ] nRF Toolchain 3.0.1 installieren
-- [ ] SEGGER J-Link Software installieren
-- [ ] `JLinkExe` und weitere J-Link-Werkzeuge auf der Kommandozeile prüfen
-- [ ] OpenEarable-2-Repository herunterladen oder vorhandenes Repository finden
-- [ ] OpenEarable-2-Repository in das Benutzerverzeichnis von `tobi` klonen
-- [ ] Abhängigkeiten/Submodule initialisieren
-- [ ] Board `openearable_v2/nrf5340/cpuapp` mit sauberem Build kompilieren
-- [ ] Optionalen FOTA-Build kompilieren
-- [ ] Build-Artefakte und Exit-Status dokumentieren
-- [ ] Falls Hardware angeschlossen: J-Link-Geräteerkennung prüfen
+- [ ] Install nRF Connect for Desktop
+- [ ] Install nRF Connect for VS Code extensions
+- [ ] Install nRF Connect SDK 3.0.1
+- [ ] Install nRF Toolchain 3.0.1
+- [ ] Install SEGGER J-Link Software
+- [ ] Check `JLinkExe` and other J-Link tools from the command line
+- [ ] Download the OpenEarable-2 repository or locate an existing repository
+- [ ] Clone the OpenEarable-2 repository into the `tobi` user's home directory
+- [ ] Initialize dependencies/submodules
+- [ ] Compile board `openearable_v2/nrf5340/cpuapp` with a clean build
+- [ ] Compile the optional FOTA build
+- [ ] Document build artifacts and exit status
+- [ ] If hardware is connected: verify J-Link device detection
 
-## 6. Flutter, Xcode und Android
+## 6. Flutter, Xcode, and Android
 
-- [ ] Flutter SDK installieren
-- [ ] Flutter dauerhaft in `PATH` aufnehmen
-- [ ] Xcode installieren
-- [ ] Xcode-Lizenz akzeptieren und Ersteinrichtung ausführen
-- [ ] iOS Simulator/benötigte Plattformen installieren
-- [ ] CocoaPods installieren
-- [ ] Android Studio installieren
-- [ ] Android SDK, Platform Tools und Command-line Tools installieren
-- [ ] Android-Lizenzen akzeptieren
-- [ ] `flutter doctor -v` ausführen
-- [ ] Alle von `flutter doctor` gemeldeten Fehler beheben
-- [ ] Abschließenden fehlerfreien `flutter doctor -v`-Lauf dokumentieren
-- [ ] OpenEarable-`app`-Repository (OpenWearables) in das Benutzerverzeichnis von `tobi` klonen
-- [ ] App-Abhängigkeiten installieren
-- [ ] Android-App erfolgreich kompilieren
-- [ ] iOS-App erfolgreich kompilieren
-- [ ] Android- und iOS-Build-Artefakte dokumentieren
+- [ ] Install Flutter SDK
+- [ ] Permanently add Flutter to `PATH`
+- [ ] Install Xcode
+- [ ] Accept the Xcode license and complete the initial setup
+- [ ] Install iOS Simulator/required platforms
+- [ ] Install CocoaPods
+- [ ] Install Android Studio
+- [ ] Install Android SDK, Platform Tools, and Command-line Tools
+- [ ] Accept Android licenses
+- [ ] Run `flutter doctor -v`
+- [ ] Fix all errors reported by `flutter doctor`
+- [ ] Document a final error-free `flutter doctor -v` run
+- [ ] Clone the OpenEarable `app` repository (OpenWearables) into the `tobi` user's home directory
+- [ ] Install app dependencies
+- [ ] Successfully compile the Android app
+- [ ] Successfully compile the iOS app
+- [ ] Document Android and iOS build artifacts
 
 ## 7. Trackpad
 
-- [ ] Aktuelle Scrollrichtung ermitteln
-- [ ] Scrollrichtung umkehren
-- [ ] Einstellung verifizieren
+- [ ] Determine the current scroll direction
+- [ ] Set the scroll direction to the Windows native scroll direction
+- [ ] Verify the setting
 
-## 8. Python und Jupyter
+## 8. Python and Jupyter
 
-- [ ] Aktuelles Python 3 installieren
-- [ ] `python3` in einer neuen Zsh-Sitzung prüfen
-- [ ] `pip3` und `pip` verfügbar machen und prüfen
-- [ ] JupyterLab und Jupyter Notebook isoliert installieren
-- [ ] Python-Kernel registrieren
-- [ ] Jupyter mit einem Test-Notebook starten und Kernel-Ausführung prüfen
+- [ ] Install the latest Python 3
+- [ ] Check `python3` in a new Zsh session
+- [ ] Make `pip3` and `pip` available and verify them
+- [ ] Install JupyterLab and Jupyter Notebook in isolation
+- [ ] Register the Python kernel
+- [ ] Start Jupyter with a test notebook and verify kernel execution
 
-## 9. Git und SSH
+## 9. Git and SSH
 
-- [ ] Vorhandene Git- und SSH-Konfiguration prüfen
-- [ ] Git-Benutzer für `TobiasRoeddiger` konfigurieren
-- [ ] Dedizierten Ed25519-SSH-Schlüssel erstellen oder passenden vorhandenen Schlüssel verwenden
-- [ ] GitHub-Hostschlüssel sicher hinterlegen
-- [ ] Öffentlichen Schlüssel beim GitHub-Konto `TobiasRoeddiger` hinzufügen
-- [ ] SSH-Agent und macOS-Schlüsselbund konfigurieren
-- [ ] Zugriff mit `ssh -T git@github.com` prüfen
-- [ ] Git-Zugriff über SSH abschließend testen
+- [ ] Check the existing Git and SSH configuration
+- [ ] Configure the Git user as `TobiasRoeddiger`
+- [ ] Create a dedicated Ed25519 SSH key or use a suitable existing key
+- [ ] Securely store the GitHub host key
+- [ ] Add the public key to the `TobiasRoeddiger` GitHub account
+- [ ] Configure the SSH agent and macOS Keychain
+- [ ] Verify access with `ssh -T git@github.com`
+- [ ] Perform a final Git access test over SSH
 
-## 10. Abschlussprüfung
+## 10. Final Verification
 
-- [ ] Alle GUI-Programme unter `/Applications` prüfen
-- [ ] Alle geforderten CLI-Befehle in einer neuen Zsh-Sitzung prüfen
-- [ ] Offene Anmeldungen, Lizenzen oder Benutzeraktionen dokumentieren
-- [ ] Abschlussbericht mit Versionen und Testergebnissen erstellen
-
-## Reihenfolge
-
-1. Bestandsaufnahme, Homebrew und Apple-Entwicklerwerkzeuge
-2. Allgemeine Programme und Office parallel installieren
-3. Terminal-Design konfigurieren
-4. Nordic SDK, J-Link und OpenEarable-Build einrichten
-5. Xcode, Android Studio und Flutter vollständig einrichten
-6. Python, pip und Jupyter installieren und testen
-7. Git-/SSH-Zugriff für `TobiasRoeddiger` konfigurieren und testen
-8. Trackpad-Einstellung ändern
-9. Alles einzeln prüfen und Abschlussbericht erstellen
+- [ ] Check all GUI applications under `/Applications`
+- [ ] Check all required CLI commands in a new Zsh session
+- [ ] Document any outstanding sign-ins, licenses, or user actions
+- [ ] Create a final report with versions and test results
